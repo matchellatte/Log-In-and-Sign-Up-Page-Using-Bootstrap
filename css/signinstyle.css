@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Poppins:wght@400;500&display=swap');
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #282A37;
+}
+
+.navbar {
+    background: #282A37;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar img {
+    width: 150px;
+}
+
+.form-label{
+    color: #fffbfb53;
+    font-size: 15px;
+}
+
+.box-area{
+    width: 930px;
+}
+
+.right-box{
+    padding: 40px 30px 40px 40px
+}
+
+.input-field {
+    background-color: #333645;
+    border: none; 
+    color: #ececec; 
+}
+
+.input-field::placeholder {
+    color: #ececec;
+}
+
+
+::placeholder{
+    color: #ececec;
+    font-size: 15px;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .navbar img {
+        width: 120px;
+    }
+    .box-area {
+        margin: 0 10px;
+    }
+    .left-box {
+        width: 300px;
+        overflow: hidden;
+    }
+    .right-box {
+        padding: 20px;
+    }
+    
+}

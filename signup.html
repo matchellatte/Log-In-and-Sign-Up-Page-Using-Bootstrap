@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CCMS eLearning Hub - Sign Up</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/signupstyle.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background: #282A37;">
+        <div class="container">
+            <img src="../img/FILES.svg" class="img-fluid">
+            <button 
+                class="navbar-toggler" 
+                type="button" 
+                data-bs-toggle="collapse" 
+                data-bs-target="#navmenu"
+            >
+            <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto"> 
+                    <li class="nav-item">
+                        <a href="#learn" class="nav-link">What You'll Learn</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#questions" class="nav-link">Questions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#instructors" class="nav-link">Instructors</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sign-Up Form -->
+    <div class="container d-flex justify-content-center align-items-center">
+        <div class="row bg-transparent">
+            <!-- Left Frame -->
+            <div class="col-md-6 rounded-4 d-flex justify-content-center align-items-left flex-column left-box">
+                <div class="featured-image mb-1">
+                    <p style="color:#ececec">
+                        JOIN FOR FREE</p>
+                    <h1 style="color:#ececec">
+                        Start your <span style="color: #1662F9;">Tech Career</span><br>
+                        at CCMS eLearning Hub.
+                    </h1>
+                    <p class="get-started" style="color: #ececec9a;"><br>Get started with CCM eLearning Hub, your gateway to a world of knowledge and skill enhancement.</p>
+                </div>
+            </div>
+
+            <!-- Right Frame -->
+            <div class="col-md-6 right-box">
+                <h2 style="color:#ececec">Create new account.</h2>
+                <div class="mt-1">
+                    <small style="color: #ececec;">Already have an account? 
+                        <a href="login.html">Login</a>
+                    </small>
+                </div>
+
+                <form>
+                    <!-- Username -->
+                    <div class="mb-3">
+                        <br>
+                        <label for="username" class="form-label">Username</label>
+                        <input type="text" class="form-control input-field" id="username" placeholder="Enter your username">
+                    </div>
+
+                    <!-- Email Address -->
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email Address</label>
+                        <input type="email" class="form-control input-field" id="email" placeholder="Enter your email">
+                    </div>
+
+                    <!-- Password and Retype Password -->
+                    <div class="mb-3">
+                        <label for="password" class="form-label">Password</label>
+                        <input type="password" class="form-control input-field" id="password" placeholder="Enter your password">
+                    </div>
+                    <div class="mb-3">
+                        <label for="confirmPassword" class="form-label">Retype Password</label>
+                        <input type="password" class="form-control input-field" id="retypePassword" placeholder="Confirm password">-p;.
+                    </div>
+
+                    <!-- Agree to Terms and Conditions -->
+                    <div class="mb-4 form-check" style="color:#ececece3">
+                        <input type="checkbox" class="form-check-input" id="agreeTerms">
+                        <small class="form-check-label" for="agreeTerms">I agree to the <a href="#" >Terms and Conditions</a></small>
+                    </div>
+                    
+                    <!-- Create Account Button -->
+                    <div class="input-group mb-3">
+                        <button class="btn btn-lg btn-primary w-100 fs-6">Create Account</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
